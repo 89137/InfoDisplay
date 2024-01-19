@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    background-image: url("https://www.glr.nl/_next/image?url=%2Fassets%2Fassets%2Fimages%2F2023%2F138942%2520Website%2520headers_1920x960px_9nieuw.jpg&w=1920&q=95");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1080px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 10%;
+
+}
+.textbox {
+    border: 5px solid white;
+    background-color: #5c7bba;
+    width: 100%;
+    height: 30%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.left , .right {
+    background-color: red;
+    width: 5%;
+    border: 1px solid black;
+    height: 100%;
+    /* text-align: justify; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #5c7bba;
+}

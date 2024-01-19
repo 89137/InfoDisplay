@@ -1,0 +1,7 @@
+body, html {
+    margin: 0;
+    overflow-Y: hidden;
+    overflow-X: hidden;
+    max-height: 1080px;
+    max-width: 1920px;
+}
